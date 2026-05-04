@@ -14,6 +14,8 @@ namespace RetailAPI.Models
         [Required] public string Role { get; set; } = string.Empty;
 
         public ICollection<AuditLog>? AuditLogs { get; set; }
+        public string? ResetOtp { get; set; }
+        public DateTime? OtpExpiry { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.Now;
         public DateTime UpdatedAt { get; set; } = DateTime.Now;
     }

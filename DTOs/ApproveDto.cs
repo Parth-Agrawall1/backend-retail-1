@@ -1,5 +1,3 @@
-using System.ComponentModel.DataAnnotations;
-
 namespace RetailAPI.DTOs
 {
     public class ApproveDto

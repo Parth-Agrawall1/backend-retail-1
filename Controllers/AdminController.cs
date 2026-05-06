@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using RetailAPI.Data;
-using RetailAPI.Models;
 using RetailAPI.DTOs;
 
 namespace RetailAPI.Controllers

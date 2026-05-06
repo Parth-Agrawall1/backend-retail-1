@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using RetailAPI.Data;
-using RetailAPI.Services;
-using RetailAPI.DTOs;
 using Microsoft.EntityFrameworkCore;
+using RetailAPI.Data;
+using RetailAPI.DTOs;
+using RetailAPI.Services;
 
 namespace RetailAPI.Controllers
-{ 
+{
     [ApiController]
     [Route("api/auth")]
     public class OtpController : ControllerBase

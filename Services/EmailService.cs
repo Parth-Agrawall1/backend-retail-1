@@ -1,6 +1,6 @@
 ﻿using MailKit.Net.Smtp;
-using MimeKit;
 using MailKit.Security;
+using MimeKit;
 
 namespace RetailAPI.Services
 {
